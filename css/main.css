@@ -1336,7 +1336,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c9987a;
+  background: #ffff2a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2833,15 +2833,10 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("https://img-blog.csdnimg.cn/20201014222656906.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3VuaXF1ZV9wZXJmZWN0,size_16,color_FFFFFF,t_70#pic_center");
+  background: url("https://img-blog.csdnimg.cn/20201015125247891.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3VuaXF1ZV9wZXJmZWN0,size_16,color_FFFFFF,t_70#pic_center");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
+  background-size: cover;
   opacity: 0.8;
-}
-@media (max-width: 767px) {
-  body {
-    background-image: url("https://ziyuan.lruihao.cn/images/bg_cell.png");
-    background-size: cover;
-  }
 }
